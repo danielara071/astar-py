@@ -1,8 +1,8 @@
 import json
 
-dataSize = open("C:\\Users\\danie\\AppData\\LocalLow\\DefaultCompany\\TestBed\\grid.json")
-dataObstacles = open("C:\\Users\\danie\\AppData\\LocalLow\\DefaultCompany\\TestBed\\obstacles.json")
-dataStartGoal = open("C:\\Users\\danie\\AppData\\LocalLow\\DefaultCompany\\TestBed\\startgoal.json")
+dataSize = "save path de n x m aqui"
+dataObstacles = "save path de obstacles aqui"
+dataStartGoal = "save path de start y goal aqui"
 class GridSize:
     def __init__(self, n, m):
         self.n = n 

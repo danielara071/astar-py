@@ -96,7 +96,7 @@ json_ready = [{"x": x, "y": y} for x, y in solution]
 
 json_out = json.dumps(json_ready, indent=4)
 
-savePath = "C:\\Users\\danie\\AppData\\LocalLow\\DefaultCompany\\TestBed\\solution.json"
+savePath = "save path aqui"
 
 with open(savePath, "w") as f:
     f.write(json_out)
